@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptomate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="{{  url_for('static',filename='style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="content">
+      <div class="logo">
+        <h1 class="animate__animated animate__pulse animate__infinite	infinite ">Cryptomate</h1>
+      </div>
+      <ul class="menu-list">
+        <div class="icon cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="#" class="home">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="icon menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+  
+
+  <script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+    window.onscroll = ()=>{
+      this.scrollY > 20 ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+    }
+  </script>
+
+<section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left
+       mb-16 md:mb-0 items-center text-center">
+            <h1 class="hedtex">Welcome To Cryptomate
+            </h1>
+            <div class="wrapper">
+                        
+                <ul class="dynamic-txts">
+                <li><span>Cryptomate</span></li>
+                <li><span>Decentralized Technique</span></li>
+                <li><span>Cryptocurrency trends</span></li>
+                <li><span>Crypto Forcasting</span></li>
+                </ul>
+            </div>
+            <div>
+                <button type="button" class="btn1"><a href="/Employeelogin" target="_blank">Crypto-Analyses</a></button>
+                <button type="button" class="btn2"><a href="/Customerlogin" target="_blank"></a>Crypto-Learn</button>
+            </div>
+
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+          <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_yc9ywdm7.json"  background="transparent"  speed="2"  
+          style="width: 500px; height: 600px;"  loop  autoplay></lottie-player>
+        
+        
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section>
+    <div class="section2">
+      
+    <div class="sec-left" >
+      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_xoocxfk0.json"  background="transparent" 
+       speed="1.5"  style="width: 500px; height: 600px; margin-bottom:300px;"  loop  autoplay></lottie-player>
+      
+      
+    </div>
+    <div class="sec-right" >
+      <p>Do you want to see some great stats regarding crypto and Blockchain ?<p/>
+    </div>
+
+
+    </div>
+
+  </section>
+
+<section class="section3">
+  <div class="sec-head" >
+    <p>Last 5 year growths of top crypto coins</p>
+  </div>
+  <div class="graph-1" >
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" src="//plotly.com/~hrishi332/21.embed?link=false&logo=false"></iframe>
+  </div>
+
+ 
+</section>
+
+
+<section class="section4">
+   <div class="s4-left">
+     <p>Highest Price of Top 5 Cryptocurrency in last 5 years </p>
+     <div class="graph2">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" src="//plotly.com/~hrishi332/30.embed?link=false&logo=false"></iframe>
+     </div>
+   </div>
+   <div class="s4-right">
+    <p>Growth of Cryptocurrency market size in India</p>
+    <div class="graph2">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" src="//plotly.com/~hrishi332/32.embed?link=false"></iframe>
+   </div>
+</section>
+
+
+<section class="section5">
+  <div class="s5-head">
+   <h2>Why to learn about Cryptos and Blockchain technologies ?</h2>
+   <div class="s5-right">
+    <div class="s5-right-top">
+      <p>A blockchain is a decentralized ledger of all transactions across a peer-to-peer network. Using this technology, participants can confirm transactions without a need for a central clearing authority. 
+        Potential applications can include fund transfers, settling trades, voting, and many other issues.</p>
+    </div>
+    <div class="s5-right-bottom">
+      <p>A blockchain is a distributed database that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin, for maintaining a secure and decentralized record of transactions. The innovation with a blockchain is that it guarantees 
+        the fidelity and security of a record of data and generates trust without the need for a trusted third party.
+      </p>
+    </div>
+   </div>
+   
+  </div>
+</section>
+
+<section class="section6">
+  <div class="s6-head">
+   <h2>So If you find any intrest in cryptos and blockchain tech do 
+     register on our portal for free and oragnised tutorials</h2>
+   <div class="s6-right">
+       <button type="submit"><a href="/login" target="_blank">Login</a></button>
+      <button type="submit"><a href="/signup" target="_blank">SignUp</a></button>
+    </div>
+   
+  </div>
+</section>
+
+<footer>
+  <h2>Proudly built by Team CURIO</h2>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background: black;
+    background-image: url("images\bank.jpg");
+}
+.contact-us{
+    width: 400px;
+    height: 600px;
+    background:black;
+    background: linear-gradient(90deg, #f1c0e8 0%, #90dbf4 47%, #cfbaf0 100%);
+
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 30px;
+    position: relative;
+}
+.title h1{
+    color:white;
+    border:solid white;
+    background:black;
+    border-radius: 30px;
+    font-style: bold;
+    margin-bottom: 25px;
+    
+    padding-left: 80px;
+    padding-right: 100px;
+    width: 350px;
+    
+    text-align: center;
+}
+.form,
+.form-items{
+    width: 100%;
+}
+
+.form-items .input{
+    width: 100%;
+    font-weight: bold;
+    color:#4b5563;
+    margin-bottom: 12px;
+    padding: 10px 35px;
+    box-sizing: border-box;
+    background: black;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+}
+.form-items .input.message{
+    height: 125px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+    resize: none    ;
+}
+.btn{
+    border:solid black;
+    background-color: black;
+    margin-top: 25px;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+    padding-right: 150px;
+}
+.btn:hover{
+    background:black;
+
+}
+.btn .fa-solid{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.form-items{
+    position: relative;
+}
+.form-items .fa-solid{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #9a9aa9;
+}
+.form-items .fa-duotone{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #9a9aa9;
+}
+.form-items .fa-regular{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #9a9aa9;
+}
+.write{
+    margin-top: 20px;
+    color:black;
+    font-weight: 700;
+}
+.account{
+    margin-top: 20px;
+    color:black;
+    font-weight: 700;
+
+}
+.social-icons{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons div{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+.social-icons div .fa-brands{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.social-icons div.facebook{
+    background: black;
+    border:solid white;
+}
+.social-icons div.twitter{
+    background: #5178d9;
+    border:solid white;
+}
+.social-icons div.google{
+    background: orangered;
+    border:solid white;
+}
+.signuplink{
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    border:solid black;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background: black;
+    background-image: url("images\bank.jpg");
+}
+.contact-us{
+    background:linear-gradient(90deg, #f1c0e8 0%, #90dbf4 47%, #cfbaf0 100%);
+    width: 380px;
+    height: 500px;
+    padding: 50px;
+    margin: 80px auto;
+    border-radius: 30px;
+    position: relative;
+}
+.title h1{
+    color:white;
+    border:solid white;
+    background:black;
+    
+    border-radius: 30px;
+    font-style: bold;
+    margin-bottom: 50px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.form,
+.form-items{
+    width: 100%;
+}
+.form-items .input{
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 14px 38px;
+    box-sizing: border-box;
+    background: black;
+    color:#4b5563;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+}
+.btn{
+    border:solid black;
+    background-color: black;
+    margin-top: 35px;
+    text-align: center;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    align-items: center;
+    padding-right: 110px;
+}
+.btn:hover{
+  background:black;
+  color:#4b5563;
+  border:solid;
+  border-color:#4b5563;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #4b5563,0 0 40px #4b5563, 0 0 10px;
+}
+.pass{
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+.for{
+    color:black;
+    font-weight: 800;
+}
+.btn .fa-solid{
+    margin-left: 10px;
+    font-size: 12px;
+}
+.form-items{
+    position: relative;
+}
+.form-items .fa-solid {
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    color: #9a9aa9;
+}
+.form-items .fa-regular {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #9a9aa9;
+}
+.social-icons{
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.social-icons div{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+.social-icons div .fa-brands{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.social-icons div.facebook{
+    border:solid white;
+    background: black;
+}
+.social-icons div.twitter{
+    border:solid white;
+    background: #5178d9;
+}
+.social-icons div.google{
+    border:solid white;
+    background: orangered;
+}
+.signuplink{
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    border:solid black;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/517744a869.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Sign Up</title>
+    
+    <link rel="stylesheet" href="{{  url_for('static',filename='style3.css')}}">
+</head>
+<body >
+    <div class="contact-us">
+        <div class="title">
+            <h1>Sign Up</h1>
+        </div>
+
+        <form class="form" method="POST" action="/signup_validation" enctype="multipart/form-data">
+
+            <div class="form-items">
+                <input type="text" class="input" placeholder="Name" name="uname">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+
+            <div class="form-items">
+                <input type="email" class="input" placeholder="Email" name="uemail">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="form-items">
+                <input type="text" class="input" placeholder="Contact No" name="ucontactnumber">
+                <i class="fa-solid fa-address-book"></i>
+            </div>
+
+            <div class="form-items">
+                <input type="password" class="input" placeholder="Password" name="upassword">
+                <i class="fa-solid fa-key"></i>
+            </div>
+
+            <button type="submit" class="btn" value="Submit➲">Submit➲</button>
+        </form>
+
+
+        <div class="write">
+            <p>By clicking the Sign Up button, you agree to our <br><br>
+                <a class="signuplink" href="" target="blank">&nbsp Terms and Condition➲</a>&nbsp and &nbsp <br><br> <a class="signuplink" href="" target="blank">Policy Privacy➲</a></p>
+        </div>
+
+        <div class="account">
+            <p>Already have an accout?&nbsp &nbsp <a class="signuplink" href="/login" target="blank">Login here➲</a></p>
+        </div>
+        <div class="social-icons">
+            <div class="facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+           <div class="twitter">
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+            <div class="google">
+                <i class="fa-brands fa-google"></i>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
